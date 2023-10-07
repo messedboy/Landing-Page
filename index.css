@@ -22,19 +22,23 @@
   margin: 0 !important;
 }
 .frame-child {
+  width: calc(100% - 498px);
   top: 40px;
+  right: 249px;
   left: 249px;
   border-radius: 50%;
   background-color: var(--color-gray-100);
   filter: blur(300px);
-  width: 868px;
   height: 868px;
   z-index: 0;
 }
 .frame-item {
+  width: calc(100% - 565.16px);
   top: -139.05px;
+  right: 282.16px;
   left: 283px;
-  width: 800.84px;
+  max-width: 100%;
+  overflow: hidden;
   height: 127.05px;
   z-index: 1;
 }
@@ -142,23 +146,18 @@
 .screenshot-2023-10-06-at-307 {
   position: absolute;
   margin: 0 !important;
-  width: calc(100% - 188px);
   top: 58.3px;
-  right: 94.91px;
-  left: 93.09px;
-  max-width: 100%;
-  overflow: hidden;
+  left: calc(50% - 589.91px);
+  width: 1178px;
   height: 761.75px;
-  flex-shrink: 0;
   object-fit: cover;
   z-index: 1;
 }
 .group-parent {
   position: absolute;
-  width: 100%;
   top: 534px;
-  right: 0.5px;
-  left: -0.5px;
+  left: calc(50% - 683.5px);
+  width: 1366px;
   display: flex;
   flex-direction: column;
   align-items: center;
